@@ -8,7 +8,7 @@ Trapdoor one-way functions, which have a hidden trapdoor, can be utilized for en
 
 - ONE-WAY HASH FUNCTIONS
 
-one-way hash function takes an input and generates a fixed-length output that acts as a fingerprint for the input. Although it is simple to calculate the output from the input, it is challenging to determine the input from the output. It is difficult to discover two separate inputs that result in the same output when using a decent one-way hash function, which is also collision-free. The integrity of communications and data is guaranteed, and identities are verified, using one-way hash functions in cryptography. Only a person in possession of the secret key may validate the output of a message authentication code (MAC), which is a one-way hash function. An example of one way hash function is the SHA-256 (Secure Hash Algorithm 256-bit). SHA-256 takes an input message of any length and produces a fixed-length 256-bit output, which serves as a unique digital fingerprint of the input message.
+one-way hash function takes an input and generates a fixed-length output that acts as a fingerprint for the input. Although it is simple to calculate the output from the input, it is challenging to determine the input from the output. It is difficult to discover two separate inputs that result in the same output when using a decent one-way hash function, which is also collision-free. The integrity of communications and data is guaranteed, and identities are verified, using one-way hash functions in cryptography. Only a person in possession of the secret key may validate the output of a message authentication code (MAC), which is a one-way hash function. 
 
 ## a) Install Hashcat
 
@@ -50,3 +50,10 @@ In the image above the main part is highlighted in orange colour --> butterfly  
 Now we just unzip the file using the command `unzip tero.zip `. `cat secretFiles/SECRET.md ` and walla!
 
 <img width="581" alt="completed successfully" src="https://user-images.githubusercontent.com/102954934/218876180-07f27898-da7c-49a6-af06-c17fa156539e.png">
+
+
+## Sources 
+- https://terokarvinen.com/2022/cracking-passwords-with-hashcat/?fromSearch=hash
+- https://terokarvinen.com/2023/crack-file-password-with-john/
+- https://learning.oreilly.com/library/view/applied-cryptography-protocols/9781119096726/10_chap02.html#chap02-sec003
+
