@@ -17,3 +17,15 @@ then I just had to make a directory name hashed `mkdir hashed` and change the di
 
 <img width="578" alt="hash install" src="https://user-images.githubusercontent.com/102954934/218867919-b718c838-df13-476b-bc3a-e015dd1ca7a1.png">
 
+## Crack this hash 8eb8e307a6d649bc7fb51443a06a216f
+
+This was a fail for me as i try almost everything to make it work. 
+
+<img width="572" alt="hash1" src="https://user-images.githubusercontent.com/102954934/218869295-017c1f9d-067d-4cf8-8471-2ab5e1a02c36.png">
+
+<img width="602" alt="hash2" src="https://user-images.githubusercontent.com/102954934/218869359-0003480a-f424-4381-8d42-2cbb037607f3.png">
+
+<img width="602" alt="hash3" src="https://user-images.githubusercontent.com/102954934/218869390-59abd185-1610-4281-a0aa-844e79e35f45.png">
+
+As seen in the image above we can see it said initializing backend runtime for device #1...illegal instruction, so i tried to find out how to fix it , I read somewhere that the fix was downloading OpenCL but it didnt work or maybe i dont know how to make it work. So Tero has agreed to help me with this in the next class.
+
