@@ -17,7 +17,7 @@ then I just had to make a directory name hashed `mkdir hashed` and change the di
 
 <img width="578" alt="hash install" src="https://user-images.githubusercontent.com/102954934/218867919-b718c838-df13-476b-bc3a-e015dd1ca7a1.png">
 
-## Crack this hash 8eb8e307a6d649bc7fb51443a06a216f
+## b) Crack this hash 8eb8e307a6d649bc7fb51443a06a216f
 
 This was a fail for me as i tried almost everything to make it work. 
 
@@ -29,6 +29,12 @@ This was a fail for me as i tried almost everything to make it work.
 
 As seen in the image above we can see it said initializing backend runtime for device #1...illegal instruction, so i tried to find out how to fix it , I read somewhere that the fix was downloading OpenCL but it didnt work or maybe i dont know how to make it work. So Tero has agreed to help me with this in the next class.
 
-## Compile John the Ripper, Jumbo version
+## c) Compile John the Ripper, Jumbo version
+
+I followed the [instruction](https://terokarvinen.com/2023/crack-file-password-with-john/) Before installing and compiling we had to install some prerequisites. I used the command `sudo apt-get -y install micro bash-completion git build-essential libssl-dev zlib1g zlib1g-dev zlib-gst libbz2-1.0 libbz2-dev atool zip wget`. then had to clone the whole project using the ommand `git clone --depth=1 https://github.com/openwall/john.git`.
+
+After that i changed to another directory `cd john/src/	` followed by `./configure` to detect the environment and create a Makefile for 'make' command.
+
+<img width="581" alt="completed successfully" src="https://user-images.githubusercontent.com/102954934/218871602-8c07e53d-a4a9-4667-9d12-482b735f99ff.png">
 
 
