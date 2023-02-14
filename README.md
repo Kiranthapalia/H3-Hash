@@ -33,8 +33,20 @@ As seen in the image above we can see it said initializing backend runtime for d
 
 I followed the [instruction](https://terokarvinen.com/2023/crack-file-password-with-john/) Before installing and compiling we had to install some prerequisites. I used the command `sudo apt-get -y install micro bash-completion git build-essential libssl-dev zlib1g zlib1g-dev zlib-gst libbz2-1.0 libbz2-dev atool zip wget`. then had to clone the whole project using the ommand `git clone --depth=1 https://github.com/openwall/john.git`.
 
-After that i changed to another directory `cd john/src/	` followed by `./configure` to detect the environment and create a Makefile for 'make' command.
+After that i changed to another directory `cd john/src/	` followed by `./configure` to detect the environment and create a Makefile for 'make' command. 
 
 <img width="581" alt="completed successfully" src="https://user-images.githubusercontent.com/102954934/218871602-8c07e53d-a4a9-4667-9d12-482b735f99ff.png">
 
+## d) Crack a zip file password
 
+Again i followed the [instruction](https://terokarvinen.com/2023/crack-file-password-with-john/). First i got the zip file `wget https://TeroKarvinen.com/2023/crack-file-password-with-john/tero.zip` and then I started the cracking process whcih consisted of 2 step.
+
+The first was extract the hash into a new file (In thsi case tero.zip.hash.) then the 2nd step was letting john perform dictionary attack using the command `$HOME/john/run/john tero.zip.hash`.
+
+
+<img width="578" alt="password (zip file)" src="https://user-images.githubusercontent.com/102954934/218875664-75f38a3c-9cf5-48d3-a448-60b0518814fb.png">
+
+In the image above the main part is highlighted in orange colour --> butterfly        (tero.zip/secretFiles/SECRET.md)  
+Now we just unzip the file using the command `unzip tero.zip `. `cat secretFiles/SECRET.md ` and walla!
+
+<img width="581" alt="completed successfully" src="https://user-images.githubusercontent.com/102954934/218876180-07f27898-da7c-49a6-af06-c17fa156539e.png">
