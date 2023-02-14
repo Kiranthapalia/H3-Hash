@@ -8,4 +8,8 @@ Trapdoor one-way functions, which have a hidden trapdoor, can be utilized for en
 
 - ONE-WAY HASH FUNCTIONS
 
-one-way hash function takes an input and generates a fixed-length output that acts as a fingerprint for the input. Although it is simple to calculate the output from the input, it is challenging to determine the input from the output. It is difficult to discover two separate inputs that result in the same output when using a decent one-way hash function, which is also collision-free. The integrity of communications and data is guaranteed, and identities are verified, using one-way hash functions in cryptography. Only a person in possession of the secret key may validate the output of a message authentication code (MAC), which is a one-way hash function. An example fo 
+one-way hash function takes an input and generates a fixed-length output that acts as a fingerprint for the input. Although it is simple to calculate the output from the input, it is challenging to determine the input from the output. It is difficult to discover two separate inputs that result in the same output when using a decent one-way hash function, which is also collision-free. The integrity of communications and data is guaranteed, and identities are verified, using one-way hash functions in cryptography. Only a person in possession of the secret key may validate the output of a message authentication code (MAC), which is a one-way hash function. An example of one way hash function is the SHA-256 (Secure Hash Algorithm 256-bit). SHA-256 takes an input message of any length and produces a fixed-length 256-bit output, which serves as a unique digital fingerprint of the input message.
+
+## a) Install Hashcat
+
+Installing stuff in linux is really +++++ 
