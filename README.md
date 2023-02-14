@@ -19,7 +19,7 @@ then I just had to make a directory name hashed `mkdir hashed` and change the di
 
 ## b) Crack this hash 8eb8e307a6d649bc7fb51443a06a216f
 
-This was a fail for me as i tried almost everything to make it work. 
+This was a fail for me as i tried almost everything to make it work but couldn't.
 
 <img width="572" alt="hash1" src="https://user-images.githubusercontent.com/102954934/218869295-017c1f9d-067d-4cf8-8471-2ab5e1a02c36.png">
 
