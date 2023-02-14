@@ -12,4 +12,4 @@ one-way hash function takes an input and generates a fixed-length output that ac
 
 ## a) Install Hashcat
 
-Installing stuff in linux is really +++++ 
+Installing stuff in linux is really convenient. FIrst i used the command `udo apt-get update` followed by `sudo apt-get -y install hashid hashcat wget`. then I just had to make a directory name hashed `mkdir hashed` then changed the directory t9o hashed using the command ` cd hashed`
